@@ -1,1 +1,4 @@
-export const fields = {};
+export default {
+    email: 'Email',
+    password: 'Password',
+};

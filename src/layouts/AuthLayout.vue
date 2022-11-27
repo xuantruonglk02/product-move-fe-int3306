@@ -17,7 +17,7 @@ export default class AuthLayout extends Vue {}
 <style lang="scss" scoped>
 .auth-layout {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    padding-top: 80px;
+    background-color: $color-background-auth;
 }
 </style>

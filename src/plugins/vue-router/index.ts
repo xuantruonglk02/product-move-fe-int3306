@@ -1,4 +1,5 @@
 import { PageName } from '@/common/constants';
+import authRoutes from '@/modules/auth/router';
 import ForbiddenPageVue from '@/modules/errors/pages/ForbiddenPage.vue';
 import NotFoundPageVue from '@/modules/errors/pages/NotFoundPage.vue';
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
@@ -24,6 +25,7 @@ const routes: Array<RouteRecordRaw> = [
         path: '/:catchAll(.*)*',
         redirect: '/404',
     },
+    ...authRoutes,
 ];
 
 const router = createRouter({

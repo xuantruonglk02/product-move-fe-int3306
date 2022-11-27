@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from 'axios';
 
 const options: AxiosRequestConfig = {
-    baseURL: process.env.VUE_SERVER_API_URL,
+    baseURL: process.env.VUE_APP_SERVER_API_URL,
     responseType: 'json',
 };
 

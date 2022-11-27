@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800&display=swap');
 
-@import 'variables';
+@import './variables.scss';
 
 body {
-    font-family: 'Open Sans';
+    font-family: Open Sans, sans-serif;
+    font-size: 1rem;
     margin: 0;
     .green-mode-theme {
         --el-color-primary: #82d616;
